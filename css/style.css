@@ -1,0 +1,54 @@
+@charset "utf-8";
+html {
+}
+
+/* 
+
+ここはメモだよ
+複数行でも対応してますよ
+
+
+*/
+body {
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-title.area-title{
+  margin-bottom: 24px;
+  color: red;
+  text-align: center;
+}
+/*ショートカット mb24 tac */
+/* エリアでパーツ分けをつける */
+
+
+
+
+
+/* news */
+.news-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+/*  display: flex;
+  flex-wrap: wrap;
+  横に並べる方法*/
+.news-item{
+  min-width: 33.333%;
+  width: 33.333%;
+  flex: 0 0 33.333%;
+}
+/* いろんな幅の指定の仕方がある */
+/* css作用しない
+１．cssの内容の書き間違い keyなら左、valueなら右に間違い
+２．全角スペース、波括弧｛｝やセミコロン；のもれ
+３．htmlとcssの指定リンクの書き間違い
+４．cssの部分が上書きしており思い通りにならない
+５．理解が間違っている
+検証ツールに使い方と間違ったときの確認方法*/
